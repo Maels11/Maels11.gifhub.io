@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Productos</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="Shortcut Icon" type="image/x-icon" href="assets/icons/shortcut-icon.ico" />
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="page-container">
+		<nav class="full-reset nav-phonestore">
+           <div class="logo tittles-pages">
+			CellStoremtz 
+           </div>
+            <ul class="list-unstyled full-reset navigation-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="product.html">Productos</a></li>
+                <li><a href="Conexion/index.php">Suscribirse</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contactenos</a></li>
+            </ul>
+            <i class="fa fa-bars visible-xs btn-mobile"></i>
+    	</nav>
+	    <div class="content-page">
+		    <div class="hidden-xs content-carousel">
+		    	<div id="carousel-phonestore" class="carousel slide" data-ride="carousel" style="margin-top:0;">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-phonestore" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-phonestore" data-slide-to="1"></li>
+				    <li data-target="#carousel-phonestore" data-slide-to="2"></li>
+				  </ol>
+				  <video 
+				  source src=""></video>
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="assets/img/slide 1.jpg" alt="">
+				      <div class="carousel-caption">
+				        <h2>Windows Phone</h2>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/slide 2.jpg" alt="">
+				      <div class="carousel-caption">
+				        <h2>iPhone 5</h2>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/slide 3.jpg" alt="">
+				      <div class="carousel-caption">
+				        <h2>Sony Xperia Z</h2>
+				      </div>
+				    </div>
+				  </div>
+				  <a class="left carousel-control" href="#carousel-phonestore" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-phonestore" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				  </a>
+				</div>
+				<br>
+				<video autoplay controls width="640" src="videos/Iphonee.mp4"></video>
+				<video controls width="640" src="videos/samsungg.mp4"></video>
+				<br>
+				<center><video  controls src="videos/xiaomii.mp4" width="700"></center>
+				<br>
+				
+				<br>
+		    </div>
+		    <div class="visible-xs static-image-carousel">
+		    	<img src="assets/img/image-carousel.jpg"  alt="" class="img-responsive">
+		    </div>
+		    <section id="prod-container section">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-xs-12 text-center">
+		    				<p class="tittles-pages">Tablets y Teléfonos</p>
+		    			</div>
+		    			<div class="col-xs-12">
+		    				<div class="container">
+			    				<ul class="nav nav-tabs" role="tablist" id="TabProducts">
+								  <li class="active"><a href="#all-categories" role="tab" data-toggle="tab"><i class="fa fa-th"></i>&nbsp; Todo</a></li>
+								  <li><a href="#smartphones" role="tab" data-toggle="tab"><i class="fa fa-mobile"></i>&nbsp; SmartPhones</a></li>
+								  <li><a href="#tablets" role="tab" data-toggle="tab"><i class="fa fa-tablet"></i>&nbsp; Tablets</a></li>
+								  <li>
+							        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-hdd-o"></i>&nbsp; Buscar OS <span class="caret"></span></a>
+							        <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+							          <li><a href="#android" tabindex="-1" role="tab" data-toggle="tab"><i class="fa fa-android"></i>&nbsp; Android</a></li>
+							          <li><a href="#iOS" tabindex="-1" role="tab" data-toggle="tab"><i class="fa fa-apple"></i>&nbsp; iOS</a></li>
+							          <li><a href="#windowsPhone" tabindex="-1" role="tab" data-toggle="tab"><i class="fa fa-windows"></i>&nbsp; Windows Phone</a></li>
+							        </ul>
+							      </li>
+								</ul>
+								<div class="tab-content">
+								  <!-- ===================================== Todas las categorias ============================================= -->
+								  <div class="tab-pane active" id="all-categories">
+								  	<p class="tittles-pages">Todos los productos</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/v.jpeg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">iPhone 13 Pro Max</h3>
+										        <p class="text-justify">
+										        	Color grafito, con frente de Ceramic Shield, pantalla de 6.7 pulgadas cuenta con tecnología OLED, memoria interna de 128 GB, también su rápido y avanzado Chip A15 Bionic, cámaras traseras de 12 MP, con teleobjetivo, 
+													cámara frontal TrueDepth, también de 12 MP. 
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/lumia.jpeg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Nokia Lumia 520</h3>
+										        <p class="text-justify">
+										        	Pantalla LCD de 4 pulgadas, procesador Qualcomm Snapdragon 200, 512 MB de memoria RAM y 4 GB de almacenamiento interno, solo una cámara principal de 5 megapíxeles y una batería de 1430 mAh.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/xiaomi.jpeg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">xiaomi 11T Pro</h3>
+										        <p class="text-justify">
+										        	Pantalla plana AMOLED de 6,67 pulgadas; Adaptable a 120Hz; Velocidad de muestreo táctil de hasta 480Hz, 8GB de ram + 128GB de almacenamiento interno, cámara trasera Triple de 108MP + 8MP + 5MP, cámara frontal de 16MP, Batería de 5000mAh (typ), hipercarga de 120W, La Netcom Dual SIM Modo de espera Dual 5G/4G, Versión Global, MIUI 12,5 basado en Android 11.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/Samsung10.jpeg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Samsung s10</h3>
+										        <p class="text-justify">
+										        	Pantalla Dynamic AMOLED de 6,1", 19:9, QHD+, 3.040 x 1.440, Gorilla Glass 6, Procesador Exynos 9820, 8GB de ram / 128GB de almacenamieto interno, cámara trasera 16 megapíxeles Ultra Wide f/2.2, cámara frontal de 10 megapíxeles f/1.9 Dual Pixel, Bateria de 3.400 mAh Carga rápida, Android 9 Pie Samsung One UI, 4G categoría 20.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion productos -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== SmartPhones ============================================= -->
+								  <div class="tab-pane" id="smartphones">
+								  	<p class="tittles-pages">SmartPhones</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone.png" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone.png" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone.png" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone.png" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+									<div class="row"><!-- Paginacion smartphone -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== Tablets ============================================= -->
+								  <div class="tab-pane" id="tablets">
+								  	<p class="tittles-pages">Tablets</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet.png" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Tablet</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet.png" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Tablet</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet.png" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Tablet</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet.png" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Tablet</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion tablets -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== Android ============================================= -->
+								  <div class="tab-pane" id="android">
+								  	<p class="tittles-pages">Android</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android.png" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Android</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android.png" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Android</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android.png" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Android</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android.png" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Android</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion android -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== iOS ============================================= -->
+								  <div class="tab-pane" id="iOS">
+								  	<h2 class="tittles-pages">iOS</h2>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS.png" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">iPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS.png" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">iPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS.png" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">iPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS.png" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">iPhone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion iOS -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== Windows Phone ============================================= -->
+								  <div class="tab-pane" id="windowsPhone">
+								  	<p class="tittles-pages">Windows Phone</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows.png" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Windows Phone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows.png" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Windows Phone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows.png" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Windows Phone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows.png" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Windows Phone</h3>
+										        <p class="text-justify">
+										        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione ad consectetur facere, alias deserunt consequatur.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Ver más</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion Windows Phone -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								</div>
+		    				</div>
+		    			</div>	
+		    		</div>
+		    	</div>
+		    </section>
+	    </div>
+		<footer class="footer">
+    		<div class="container-fluid">
+    			<div class="col-xs-12 text-center">
+    				<h3>Siguenos en</h3>
+    				<ul class="list-unstyled list-social-icons">
+    					<li >
+							<a href="#!">https://www.facebook.com/CellstoreMtz-100441395966050
+								<i class="fa fa-facebook" style="background-color: #3B5998;"></i> 
+							 </a>
+						 </li>
+						 <li>
+							 <a href="#!">https://www.google.com/CellStoremtz
+								 <i class="fa fa-google-plus" style="background-color: #DD4B39;"></i>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="#!">https://www.twitter.com/CellStoremtz
+								 <i class="fa fa-twitter"  style="background-color: #56A3D9;"></i>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="#!">https://www.youtube.com/CellStoremtz
+								 <i class="fa fa-youtube" style="background-color: #BF221F;"></i>
+							 </a>
+    					</li>
+    				</ul>
+    				<h4>CellStoreMtz &copy; 2022</h4>
+    			</div>
+    		</div>
+    	</footer>
+	</div>
+	<script>
+	  $(function () {
+	    $('#TabProducts a:first').tab('show')
+	  });
+	  $('#TabProducts a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		});
+	</script>
+</body>
+</html>
